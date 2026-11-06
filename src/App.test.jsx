@@ -1,8 +1,8 @@
 import { describe, test, expect, afterEach } from "vitest";
 import { render, screen, cleanup } from "@testing-library/react";
 import App from "./App";
-import Header from "./components/Header";
-import Article from "./components/Article";
+import Header from "./Header";
+import Article from "./Article";
 import blog from "./blog";
 
 // Clean up the rendered DOM after each test
